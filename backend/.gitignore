@@ -1,0 +1,20 @@
+# Rust build output
+target/
+
+# Env files
+.env
+*.env
+
+# Logs
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+**/*.rs.bk
