@@ -35,33 +35,6 @@ A full-stack Inventory and Point-of-Sale (POS) system built using **Rust (Actix 
 
 ## 📁 Project Structure
 Inventory_with_POS_system/
-├── backend/ # Rust (Actix Web API)
-│ ├── src/
-│ │ ├── middleware/
-│ │ ├── routes/
-│ │ ├── main.rs
-│ │ └── middleware.rs
-│ │ ├── routes.rs
-│ │ └── state.rs
-│ │
-│ ├── .gitignore
-│ └── Cargo.toml
-│
-├── frontend/ # Next.js (App Router)
-│ ├── src/
-│ │ └── app/
-│ │ ├── components/
-│ │ ├── dashboard/
-│ │ ├── inventory/
-│ │ ├── lib/
-│ │ ├── pos/
-│ │ ├── globals.css
-│ │ ├── layout.tsx
-│ │ └── page.tsx
-│ │
-│ ├── public/
-│ ├── package.json
-│ ├──  next.config.js
-│ └── .gitignore
-|
+├── backend/   (Rust - Actix Web API)
+├── frontend/  (Next.js App Router)
 └── README.md
