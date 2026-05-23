@@ -1,7 +1,5 @@
 use crate::{AuthService, ProductService, DashboardService, PosService, EmployeeService};
 
-
-
 pub struct AppState {
     pub auth: AuthService,
     pub products: ProductService,
